@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/FRONTEND-Carros/static/js/main.5767fabd.chunk.js",
+    "main.js.map": "/FRONTEND-Carros/static/js/main.5767fabd.chunk.js.map",
+    "runtime-main.js": "/FRONTEND-Carros/static/js/runtime-main.fe1aa45b.js",
+    "runtime-main.js.map": "/FRONTEND-Carros/static/js/runtime-main.fe1aa45b.js.map",
+    "static/css/2.383c0125.chunk.css": "/FRONTEND-Carros/static/css/2.383c0125.chunk.css",
+    "static/js/2.d5cc43c1.chunk.js": "/FRONTEND-Carros/static/js/2.d5cc43c1.chunk.js",
+    "static/js/2.d5cc43c1.chunk.js.map": "/FRONTEND-Carros/static/js/2.d5cc43c1.chunk.js.map",
+    "index.html": "/FRONTEND-Carros/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/FRONTEND-Carros/static/css/2.383c0125.chunk.css.map",
+    "static/js/2.d5cc43c1.chunk.js.LICENSE.txt": "/FRONTEND-Carros/static/js/2.d5cc43c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe1aa45b.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.d5cc43c1.chunk.js",
+    "static/js/main.5767fabd.chunk.js"
+  ]
+}
