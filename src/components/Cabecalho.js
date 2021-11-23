@@ -8,7 +8,7 @@ import { IoCarSport, IoHome } from "react-icons/io5"
 
 const Cabecalho = () => {
     return (
-    <Navbar className="p-3" bg="dark" variant="dark">
+    <Navbar className="p-3" bg="danger" variant="dark">
         <Navbar.Brand><IoCarSport/> CarTown</Navbar.Brand>
         <Nav className="mr-auto">
             <Nav.Link href="#/"><IoHome/> Início</Nav.Link>

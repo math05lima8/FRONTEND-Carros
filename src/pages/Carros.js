@@ -58,11 +58,15 @@ const Carros = () => {
 
         if (isNaN(parseInt(ano))) novosErros.ano = 'O ano do veículo deve ser um número!'
 
+        if (ano.length > 4) novosErros.ano = 'O ano do veículo é inválido'
+
         if (!cor || cor === '') novosErros.cor = 'O campo Cor não pode estar vázio'
         
         if (!fabricante || fabricante === '') novosErros.fabricante = 'O campo Fabricante não pode estar vázio'
 
         if (isNaN(parseFloat(preco))) novosErros.preco = 'O Preço do veículo deve ser um número!'
+
+
 
         return novosErros
     }
@@ -174,6 +178,9 @@ const Carros = () => {
                                 </Form.Control.Feedback>
                         </Form.Group>
                         &nbsp;
+                        <Row>
+                            &nbsp;
+                            </Row>
                         <Button variant="dark" type="submit" 
                             title="Salvar o registro" onClick={(e) => salvarCarro(e)}>
                             {salvandoCarros
@@ -207,10 +214,10 @@ const Carros = () => {
                             {carros.map(item => (
                                 <tr key={item._id}>
                                     <td>{item.modelo}</td>
-                                    <td>{new Number(item.ano).toLocaleString()}</td>
+                                    <td>{item.ano}</td>
                                     <td>{item.cor}</td>
                                     <td>{item.fabricante}</td>
-                                    <td>{new Number(item.preco).toLocaleString()}</td>
+                                    <td>R${new Number(item.preco).toLocaleString()}</td>
                                     <td>
                                         <Button variant="dark" title="Editar o registro"
                                         onClick={() => setCarro(item)}><MdModeEdit/></Button>

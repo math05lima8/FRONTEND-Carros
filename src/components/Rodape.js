@@ -6,7 +6,7 @@ import { IoCarSport } from "react-icons/io5"
 
 const Rodape = () => {
     return (
-        <Navbar className="p-3" bg="dark" fixed="bottom">
+        <Navbar className="p-3" bg="danger" fixed="bottom">
             <NavbarBrand className="text-light">
                 <IoCarSport/> CarTown &copy; - Todos os direitos reservados
             </NavbarBrand>
